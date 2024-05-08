@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
-import { client } from '@/sanity/lib/client';
-import { urlForImage } from '@/sanity/lib/image';
-import { Product } from '@/components';
-import { useStateContext } from '@/context/StateContext';
+import { client } from '../../sanity/lib/client';
+import { urlForImage } from '../../sanity/lib/image';
+import { Product } from '../../components';
+import { useStateContext } from '../../context/StateContext';
 
 const ProductDetails = ({ product, products }) => {
   const { image, name, details, price } = product;

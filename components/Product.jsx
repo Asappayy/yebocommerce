@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { urlForImage } from '@/sanity/lib/image';
+import { urlForImage } from '../sanity/lib/image';
 
 const Product = ({ product: { image, name, slug, price } }) => {
   return (

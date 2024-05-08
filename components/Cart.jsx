@@ -5,7 +5,7 @@ import { TiDeleteOutline } from 'react-icons/ti';
 import toast from 'react-hot-toast';
 
 import { useStateContext } from '../context/StateContext.js';
-import getStripe from '@/sanity/lib/getStripe';
+import getStripe from '../sanity/lib/getStripe';
 
 
 

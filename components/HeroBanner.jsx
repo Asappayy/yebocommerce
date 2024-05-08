@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 // import { urlFor } from '../lib/client';
-import { urlForImage } from '@/sanity/lib/image'; 
+import { urlForImage } from '../sanity/lib/image'; 
 
 const HeroBanner = ({ heroBanner }) => {
   return (

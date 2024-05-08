@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { client } from '@/sanity/lib/client'; 
-import { FooterBanner, HeroBanner, Product } from '@/components';
+import { client } from '../sanity/lib/client';
+import { FooterBanner, HeroBanner, Product } from '../components';
 // import HeroBanner from '@/components/index.js';
 
 const Home = ({ products, bannerData }) => (
