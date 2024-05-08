@@ -4,10 +4,10 @@ import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 
 import { TiDeleteOutline } from 'react-icons/ti';
 import toast from 'react-hot-toast';
 
-import { useStateContext } from '../context/StateContext';
-// import { urlFor } from '../lib/client';
+import { useStateContext } from '../context/StateContext.js';
 import getStripe from '@/sanity/lib/getStripe';
-import { urlForImage } from '@/sanity/lib/image';
+
+
 
 const Cart = () => {
   const cartRef = useRef();
